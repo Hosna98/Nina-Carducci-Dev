@@ -42,12 +42,12 @@
 		<!--Référencement local schema.org-->
 		<script type="application/ld+json">
 			{
-			  "@context": "https://schema.org",
-			  "@type": "Photographer",
+			  "@context": "http://schema.org",
+			  "@type": "ProfessionalService",
 			  "name": "Nina Carducci",
-			  "jobTitle": "Freelance Photographer",
-			  "image": "./assets/images/nina.webp",
-			  "telephone": "+33556677889",
+			  "image": "https://hosna98.github.io/Nina-Carducci-Dev/assets/images/nina.webp",
+			  "url": "https://hosna98.github.io/Nina-Carducci-Dev/",
+			  "priceRange": "50€ - 400€",
 			  "address": {
 				"@type": "PostalAddress",
 				"streetAddress": "68 avenue Alsace-Lorraine",
@@ -55,26 +55,24 @@
 				"postalCode": "33200",
 				"addressCountry": "FR"
 			  },
-			  "url": "https://nina-carducci.github.io/",
-			  "priceRange": "€50 - €400",
-			  "sameAs": [
-				"https://www.instagram.com/ninacarducci.photo"
+			  "telephone": "+33556677889",
+			  "openingHoursSpecification": [
+				{
+				  "@type": "OpeningHoursSpecification",
+				  "dayOfWeek": [
+					"Monday",
+					"Tuesday",
+					"Wednesday",
+					"Thursday",
+					"Friday"
+				  ],
+				  "opens": "10:00",
+				  "closes": "19:00"
+				}
 			  ],
-			  "openingHoursSpecification": {
-				"@type": "OpeningHoursSpecification",
-				"dayOfWeek": [
-				  "Monday",
-				  "Tuesday",
-				  "Wednesday",
-				  "Thursday",
-				  "Friday"
-				],
-				"opens": "10:00",
-				"closes": "19:00"
-			  },
-			  "description": "Nina Carducci is a freelance photographer based in Bordeaux, specializing in [insert specialty or genre]."
+			  "sameAs": ["https://www.instagram.com/ninacarducci.photo"]
 			}
-			</script>
+		  </script>
 	</head>
 	<body>
 		<div class="top-header">
