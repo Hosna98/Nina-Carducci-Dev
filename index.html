@@ -43,13 +43,11 @@
 		<script type="application/ld+json">
 			{
 			  "@context": "https://schema.org",
-			  "@type": "ProfessionalService",
+			  "@type": "Person",
 			  "name": "Nina Carducci",
+			  "jobTitle": "Photographe freelance",
 			  "image": "https://hosna98.github.io/Nina-Carducci-Dev/assets/images/nina.webp",
-			  "@id": "https://hosna98.github.io/Nina-Carducci-Dev/",
-			  "url": "https://hosna98.github.io/Nina-Carducci-Dev/",
 			  "telephone": "+33556677889",
-			  "priceRange": "50€ - 400€",
 			  "address": {
 				"@type": "PostalAddress",
 				"streetAddress": "68 avenue Alsace-Lorraine",
@@ -57,31 +55,25 @@
 				"postalCode": "33200",
 				"addressCountry": "FR"
 			  },
-			  "geo": {
-				"@type": "GeoCoordinates",
-				"latitude": 44.8465743,
-				"longitude": -0.6065364999999999
-			  },
-			  "openingHoursSpecification": [
-				{
-				  "@type": "OpeningHoursSpecification",
-				  "dayOfWeek": "Monday",
-				  "opens": "10:00",
-				  "closes": "19:00"
-				},
-				{
-				  "@type": "OpeningHoursSpecification",
-				  "dayOfWeek": "Tuesday",
-				  "opens": "10:00",
-				  "closes": "19:00"
-				},
-				...
-			  ],
+			  "url": "https://hosna98.github.io/Nina-Carducci-Dev/",
+			  "priceRange": "€50 - €400",
 			  "sameAs": [
 				"https://www.instagram.com/ninacarducci.photo"
-			  ]
+			  ],
+			  "openingHoursSpecification": {
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek": [
+				  "Monday",
+				  "Tuesday",
+				  "Wednesday",
+				  "Thursday",
+				  "Friday"
+				],
+				"opens": "10:00",
+				"closes": "19:00"
+			  }
 			}
-		</script>
+			</script>
 	</head>
 <body>
 	<div class="top-header">

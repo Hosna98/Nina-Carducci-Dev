@@ -106,12 +106,19 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
-	background-color: blue;
+	color: black;
+	background-color: #8C853D;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+	cursor: pointer;
+
+}
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:hover {
+    background-color: #8C853D;
+    color: #fff; /* Change text color to white on hover */
 }
 .item-column {
 	position: relative;
