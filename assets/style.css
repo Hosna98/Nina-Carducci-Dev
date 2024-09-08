@@ -43,6 +43,9 @@ body {
 .social-link img {
 	width: 20px;
 }
+.visually-hidden{
+    visibility: hidden;
+}
 
 #about {
 	display: flex;
@@ -117,8 +120,8 @@ body {
 }
 .nav-pills .nav-link.active,
 .nav-pills .nav-link:hover {
-	background-color:#333;
-    color: white; /* Change text color to white on hover */
+	background-color: rgb(190, 180, 90);
+    color: black; /* Change text color to white on hover */
 }
 .item-column {
 	position: relative;
