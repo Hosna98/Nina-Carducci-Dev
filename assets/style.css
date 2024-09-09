@@ -140,6 +140,7 @@ body {
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
+	cursor: pointer;
 }
 .mg-prev, .mg-next {
 	width: 30px;
@@ -260,17 +261,10 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
-footer {
-	background-color: #1c6474;
-	padding-block: 2em;
-	color: black;
-	text-align: center;
-	p {
-	  a {
-		color: black;
-	  }
-	}
-  }
+.form-container h3 {
+    margin-left: 10px !important; /* Ajuste cette valeur */
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
