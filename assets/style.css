@@ -118,11 +118,6 @@ body {
 	cursor: pointer;
 
 }
-.nav-pills .nav-link.active,
-.nav-pills .nav-link:hover {
-	background-color: rgb(190, 180, 90);
-    color: black; /* Change text color to white on hover */
-}
 .item-column {
 	position: relative;
 	margin-bottom: 0 ;
